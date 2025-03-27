@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 export default function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true);
-  const text = "DESIGN DEVELOP & DIFFERENTIATE";
+  const text = "DESIGN DEVELOP & DEPLOY";
   const words = text.split(' ');
 
   useEffect(() => {
